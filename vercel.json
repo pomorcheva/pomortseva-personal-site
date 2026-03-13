@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bash build.sh",
+  "buildCommand": "pip3 install -r requirements.txt --break-system-packages && mkdocs build",
   "outputDirectory": "site",
-  "installCommand": "pip3 install -r requirements.txt"
+  "installCommand": ""
 }
