@@ -1,0 +1,51 @@
+site_name: Анастасия Поморцева
+site_description: Персональный сайт — маркетолог, организатор мероприятий
+site_author: Анастасия Поморцева
+site_url: https://anastasia-pomortseva.github.io
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/account-circle
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+plugins:
+  - search:
+      lang: ru
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/anastasia_pomortseva
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/anastasia-pomortseva
+
+copyright: © 2025 Анастасия Поморцева
